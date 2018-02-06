@@ -3,6 +3,9 @@
 
 "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 <beans>
+<!-- to activate required annotations -->
+<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor;"></bean>
+
 <!-- oracle connection -->
 <bean id="t" class="beans.Test" dependency-check="simple">
 <property name="driver" value="oracle.jdbc.OracleDriver"></property>

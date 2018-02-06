@@ -1,5 +1,6 @@
 package test;
 
+import org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -14,6 +15,7 @@ public class Client {
 		ApplicationContext ap=new ClassPathXmlApplicationContext("resources/spring.xml");
 		Test t=(Test) ap.getBean("t");
 		t.printConn();
+		RequiredAnnotationBeanPostProcessor
 		
 	}
 

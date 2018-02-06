@@ -2,6 +2,8 @@ package beans;
 
 import java.sql.DriverManager;
 
+import org.springframework.beans.factory.annotation.Required;
+
 import com.mysql.jdbc.Connection;
 
 public class Test {
@@ -10,12 +12,12 @@ public class Test {
 	private String user;
 	private String password;
 	
-	
+	@Required
 	public void setDriver(String driver) {
 		this.driver = driver;
 	}
 
-
+    @Required
 	public void setUrl(String url) {
 		this.url = url;
 	}
