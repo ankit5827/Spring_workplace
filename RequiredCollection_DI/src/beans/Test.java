@@ -34,16 +34,16 @@ public class Test {
 		{
 			System.out.println(fruit);
 		}
-		/*System.out.println("Cricketers......");
+		System.out.println("Cricketers......");
 		for(Object cricketer : cricketers)
 		{
 			System.out.println(cricketer);
-		}*/
-		/*System.out.println("country and capital.....");
+		}
+		System.out.println("country and capital.....");
 		 keys=cc.keySet();
 		for (Object key: keys)
 		{
 			System.out.println("Country="+key+ "Capital: "+cc.get(key));
-		}*/
+		}
 	}
 }
