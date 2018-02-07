@@ -10,5 +10,6 @@
 
 </bean>
 
-<bean id="e" class="beans.Engine" c:modelyear="2016"></bean>
+<bean id="e" class="beans.Engine" c:modelyear="2016">
+</bean>
 </beans>
