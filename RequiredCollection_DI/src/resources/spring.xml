@@ -33,11 +33,11 @@ http://www.springframework.org/schema/util http://www.springframework.org/schema
 <value>Sehwag</value>
 <value>sachin</value>
 </util:set>
-</property>
+</property> 
 
 
 <property name="cc">
-<util:map map-class="java.util.hashtable">
+<util:map map-class="java.util.Hashtable">
 <entry key="india" value="delhi"></entry>
 <entry key="srilanka" value="colombo"></entry>
 </util:map>

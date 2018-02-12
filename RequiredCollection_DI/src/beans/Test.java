@@ -3,12 +3,13 @@ package beans;
 import java.util.Hashtable;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.Vector;
 
 public class Test {
 
 	private Vector fruits;
-	private TreeMap cricketers;
+	private TreeSet cricketers;
 	private Hashtable cc;
 	
 	
@@ -17,7 +18,7 @@ public class Test {
 	}
 
 
-	public void setCricketers(TreeMap cricketers) {
+	public void setCricketers(TreeSet cricketers) {
 		this.cricketers = cricketers;
 	}
 
@@ -35,12 +36,12 @@ public class Test {
 			System.out.println(fruit);
 		}
 		System.out.println("Cricketers......");
-		for(Object cricketer : cricketers)
-		{
-			System.out.println(cricketer);
-		}
+		
+			System.out.println(cricketers);
+		
+	
 		System.out.println("country and capital.....");
-		 keys=cc.keySet();
+		Set keys=cc.keySet();
 		for (Object key: keys)
 		{
 			System.out.println("Country="+key+ "Capital: "+cc.get(key));
